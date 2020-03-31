@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- <---terminal-----   -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src= "https://unpkg.com/prismjs/prism.js"></script>
+<script src= "https://unpkg.com/jquery.terminal/js/prism.js"></script>
+<script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="portfolio.css">
+<title>Elizabeth Havird</title>
+<body>
+<!-- terminal -->
+<script>
+
+$.terminal.syntax('javascript')
+var customerName= prompt("hello! welcome. please enter name");
+
+  if (customerName!= null) {
+  
+      document.getElementById("welcome").innerHTML =
+  
+      "Hello " + customerName + "! How are you today?";
+  
+  }
+
+
+
+
+</script>
+
+
+
+<!-- <script>
+  $('body').terminal({
+      im: function(what) {
+          this.echo('hi, ' + what +
+                    '. its a pleasure to type with you! are you looking to build something beautiful together? if so, type lets go');
+      }
+      if 
+  }, {
+      greetings: ' hello and welcome! you have reached the website of elizabeth havird. my name is marnie. whats your name? (type im - and then your name)'
+  });
+
+  </script>
+ -->
+
+  <div class="tv">
+    <div id="term"></div>
+    <div class="flicker"></div>
+    <div class="scanlines"></div>
+  </div>
+  <script src="portfolio.js"></script>
+<!-- terminal -->
+</header>
+  
+</body>
+
+</html>

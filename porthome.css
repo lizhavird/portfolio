@@ -1,0 +1,322 @@
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+    outline:none;
+    background-color:white;
+    text-decoration-color:black;
+}
+
+#container-nav{
+    border: black;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px; */
+  /* border-radius: 25px;
+  border: 2px solid black; */ */
+}
+
+#skills3{
+  width: 100%;
+  height: 320px;
+  background-color:white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px
+}
+
+li, a, button{
+    font-family: 'Roboto Mono';
+    font-size: 12;
+    color: black;
+   text-decoration: none;
+}
+
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding:0px-20px;
+}
+
+.nav_links li a {
+  transition: all 0.3s ease 0s;
+
+}
+
+.nav_links li a:hover {
+    color:green;
+}  
+
+button{
+    padding:9px 25px;
+    background-color:rgba(red, green, blue, alpha) ;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background: rgba(0,136,169,0,8);
+
+}
+
+.logo{
+/* /make logo link to home page  */
+    max-width: 30%;
+    float: left;
+    position: relative;
+    margin: 10px 15px 15px 10px;
+}
+.bg-div {
+   overflow: hidden;
+}
+.nav {
+    float: left;
+}
+
+
+/* //home */
+
+#porthome{
+  width: 100%;
+  height: 320px;
+  background-color:white;
+  padding: 50px;
+  margin: 20px;
+  padding: 20px
+}
+
+#headshot{
+  width:30%;
+  height:auto;
+  border-radius:90%;
+  float: left;
+}
+span{
+    display: block;
+    background-color: black;
+    float: left;
+}
+
+#static{
+    display: flex;
+    justify-content: center;
+    float: left;
+    font-size: 18px;
+}
+
+#thiscontainer{
+    display:flex;
+    justify-content: center;
+    float: left;
+}
+
+html,body {
+    font-family: Roboto Mono;
+    padding: 1em 2em;
+    font-size: 18px;
+    background:white;
+    color: #aaa
+  }
+  
+  h1,h2 {
+    font-weight: 200;
+    margin: 0.4em 0;
+  
+  }
+  h1 { font-size: 3.5em; }
+  h2 {
+    color: #888;
+    font-size: 2em;
+  }
+
+
+footer{
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;    
+    display: flex;
+    justify-content: center; 
+}
+
+/* about me */
+
+.aboutme{
+    text-align: center;
+    text-decoration-color: black;
+    color: black;
+
+}
+
+#aboutme-img{
+    display: block;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#projects{
+color:black;
+/* text-shadow:6px 6px black; */
+text-align: center;
+}
+
+
+#aboutmetxt{
+  direction:rtl;
+text-align:justify;
+  float:right;
+  text-align: right;
+}
+
+#skills{
+  width: 100%;
+  height: 200px;
+  background-color:white;
+  padding: 50px;
+  margin: 20px;
+  border-color:grey;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px;
+  color:black
+}
+
+#skills0{
+  width: 100%;
+  height: 500px;
+  background-color:white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px
+}
+
+
+#skills3{
+  width: 100%;
+  height: 320px;
+  background-color:white;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 25px;
+  border: 2px solid black;
+  padding: 20px
+}
+
+#skills1{
+    width: 100%;
+    height: 400px;
+    background-color:white;
+    padding: 50px;
+    margin: 20px;
+  }
+  
+  #skills2{
+    width: 100%;
+    height: 200px;
+    background-color:white;
+    padding: 50px;
+    margin: 20px;
+    border-color:grey;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding: 20px;
+    color:black
+  }
+
+#github{
+width:10%
+  }
+
+#linkden{
+    width:9%
+      }
+/* //contact */
+.wrapper{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-form{
+  max width: 550px;
+  margin: 0 auto;
+  background:black;
+  padding: 30px;
+  border-radius: 5px;
+  display:flex;
+  justify-content:center;
+  box-shadow:0 0 10px;
+}
+
+.input-feilds{
+  display:flex;
+  flex direction: column;
+  margin right:4%;
+  background:white;
+  color:black;
+  text-color: black;
+}
+
+.msg{
+width: 45%;
+color:white;
+}
+.input, .msg textarea{
+  margin: 10px 0;
+  background: transparent;
+  border:0;
+ border-bottom: 2px solid white ;
+ padding: 10px;
+ color:purple;
+ width: 100%;
+}
+
+.msg textarea{
+  height: 212px;
+}
+
+::-webkit-input-placeholder{
+  color:white;
+}
+
+::-moz-input-placeholder{
+  color:white;
+}
+
+::-ms-input-placeholder{
+  color:white;
+}
+
+.btn{
+  background: blueviolet;
+  text-align:center;
+  padding: 15px;
+  border-radius: 5px;
+  color:white;
+  cursor:pointer;
+  text-transform: uppercase;
+}
+
+#form{
+display: flex;
+justify-content: center;
+}
